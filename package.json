@@ -29,9 +29,11 @@
     "predeploy": "cd example && yarn install && yarn run build"
   },
   "peerDependencies": {
+    "@material-ui/styles": "^4.11.4",
     "react": ">= 16.8.0"
   },
   "devDependencies": {
+    "@material-ui/styles": "^4.11.4",
     "@testing-library/dom": "^8.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -66,8 +68,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "@material-ui/styles": "^4.11.4"
-  }
+  ]
 }
