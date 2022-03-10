@@ -1,6 +1,6 @@
 {
   "name": "@pomle/react-viewstack",
-  "version": "1.0.1-0",
+  "version": "1.0.1",
   "description": "Component for stacking views",
   "author": "pomle",
   "license": "MIT",
