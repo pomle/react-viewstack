@@ -30,5 +30,5 @@ export default function Sticky({ children, delay = 1000 }: StickyProps) {
     };
   }, [children, delay]);
 
-  return React.Fragment({ children: mount ? content.current : null });
+  return <React.Fragment>{mount ? content.current : null}</React.Fragment>;
 }
