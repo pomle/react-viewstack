@@ -17,7 +17,7 @@ style.textContent = `
 }
 `;
 
-document.body.appendChild(style);
+document.head.appendChild(style);
 
 interface ViewStackProps {
   children: React.ReactNode;
