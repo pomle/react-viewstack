@@ -1,1 +1,1 @@
-export { default } from "./ViewStack";
+export { default } from './ViewStack';
