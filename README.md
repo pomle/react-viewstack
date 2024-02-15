@@ -2,6 +2,19 @@
 
 Library for facilitating view transitions.
 
+Helps with composing DOM elements on top of each other in Z direction. Best described as a way to formalize the below CSS.
+
+```css
+.parent {
+  position: relative;
+}
+
+.child {
+  inset: 0;
+  position: absolute;
+}
+```
+
 ## Usage
 
 ### `ViewStack`
